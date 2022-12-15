@@ -1,0 +1,329 @@
+#forImage {
+
+    background-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20220712125931/Structureofbrain.jpg);
+    height:700px;
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    
+}
+
+body {
+
+    background-color: wheat;
+    flex-wrap: wrap;
+}
+
+.container {
+
+    background-color: yellow;
+    flex-wrap: wrap;
+}
+
+.sub-container {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sub-container-1 {
+
+    background-color: aqua;
+    padding: 20px;
+}
+
+#sub-container-2 {
+
+    background-color: yellowgreen;
+    padding: 20px;
+}
+
+#sub-container-3 {
+
+    background-color:rgb(193, 123, 36);
+    padding: 20px;
+}
+
+.btn {
+
+    height: 100px;
+    width: 100px;
+    background-color: rgb(218, 184, 160);
+    color: blue;
+    border: solid 3px chartreuse;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.btn:hover {
+
+    cursor: pointer;
+    font-weight: bolder;
+    color:white;
+}
+
+.btn:focus {
+
+    cursor: grab;
+    color: antiquewhite;
+    background-color: chartreuse;
+}
+
+#id-btn-1:hover {
+
+    background-color: coral;
+    transition: all .7s ease-in-out;
+    /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/69/1311_Brain_Stem.jpg); */
+}
+
+#id-btn-2:hover {
+
+    background-color: cadetblue;
+    transition: all .7s ease-in-out;
+
+}
+
+#id-btn-3:hover {
+
+    background-color:blueviolet;
+    transition: all .7s ease-in-out;
+
+}
+
+#id-btn-4:hover {
+
+    background-color:rgb(57, 40, 18);
+    transition: all .7s ease-in-out;
+
+}
+
+#id-btn-5:hover {
+
+    background-color: rgb(104, 19, 104);
+    transition: all .7s ease-in-out;
+
+}
+
+#id-btn-6:hover {
+
+    background-color: slateblue;
+    transition: all .7s ease-in-out;
+
+}
+
+#id-btn-7:hover {
+
+    background-color: crimson;
+    transition: all .7s ease-in-out;
+
+}
+
+#id-btn-8:hover {
+
+    background-color: rgb(149, 105, 149);
+    transition: all .7s ease-in-out;
+
+}
+
+#id-btn-9:hover {
+
+    background-color: rgb(13, 87, 80);
+    transition: all .7s ease-in-out;
+    
+}
+
+#id-btn-10:hover {
+
+    background-color: tomato;
+    transition: all .7s ease-in-out;
+
+}
+
+#id-btn-11:hover {
+
+    background-color: blue;
+    transition: all .7s ease-in-out;
+
+}
+
+#id-btn-12:hover {
+
+    background-color: rgb(14, 67, 67);
+    transition: all .7s ease-in-out;
+    
+}
+
+#id-btn-13:hover {
+
+    background-color: rgb(47, 6, 85);
+    transition: all .7s ease-in-out;
+
+}
+
+#id-btn-14:hover {
+
+    background-color: rgb(9, 9, 70);
+    transition: all .7s ease-in-out;
+
+}
+
+#id-btn-15:hover {
+
+    background-color: rgb(11, 50, 37);
+    transition: all .7s ease-in-out;
+
+}
+
+#id-btn-16:hover {
+
+    background-color: rgb(117, 75, 24);
+    transition: all .7s ease-in-out;
+
+}
+
+#id-btn-17:hover {
+
+    background-color: rgb(32, 21, 7);
+    transition: all .7s ease-in-out;
+
+}
+
+#id-btn-18:hover {
+
+    background-color: rgb(91, 101, 8);
+    transition: all .7s ease-in-out;
+
+}
+
+#top-left-1 {
+
+    position:absolute;
+    top:8px;
+    left:16px;
+    background-color: antiquewhite;
+    height: 200px;
+    width: 200px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.top-left-2 {
+
+    position:absolute;
+    top:380px;
+    left:16px;
+    background-color: antiquewhite;
+    height: 240px;
+    width: 200px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#top-left-1 p {
+
+    color: blueviolet;
+}
+
+.top-left-2 p {
+
+    color: blueviolet;
+}
+
+
+.top-right-1 {
+
+    position: absolute;
+    top:8px;
+    right:16px;
+    height: 100px;
+    width: 100px;
+    background-color:rgb(193, 128, 141);
+    height: 200px;
+    width: 200px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+
+.top-right-2 {
+
+    position: absolute;
+    top:380px;
+    right:16px;
+    background-color:rgb(193, 128, 141);
+    height: 200px;
+    width: 200px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+
+.top-right-1 p {
+
+    color: blue;
+}
+
+.top-right-2 p {
+
+    color: blue;
+}
+
+
+@media (max-width:400px){
+#top-left-1 {
+
+    position:absolute;
+    top:8px;
+    left:16px;
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100px;
+    font-size:smaller;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
